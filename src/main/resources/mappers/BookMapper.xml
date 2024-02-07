@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.BookMapper">
+
+
+<!--    <select id="getByname" parameterType="String" resultType="book">-->
+<!--        select  * from phrase where bookname like '%${value}%'-->
+<!--    </select>-->
+
+<!--    <insert id="insertbook" parameterType="book" useGeneratedKeys="true" keyProperty="id">-->
+<!--        insert into phrase(value)-->
+<!--        values (#{value})-->
+<!--    </insert>-->
+
+<!--    <update id="update_dynamic" parameterType="book" >-->
+<!--        update phrase-->
+<!--        <set>-->
+<!--            <if test="bookname != null">-->
+<!--                bookname=#{bookname},-->
+<!--            </if>-->
+<!--            <if test="author != null">-->
+<!--                author=#{author},-->
+<!--            </if>-->
+<!--            <if test="price != null">-->
+<!--                price=#{price},-->
+<!--            </if>-->
+<!--            <if test="press != null">-->
+<!--                press=#{press},-->
+<!--            </if>-->
+
+<!--        </set>-->
+<!--        where id=#{id}-->
+<!--    </update>-->
+<!--    <delete id="delete" parameterType="int">-->
+<!--        delete from phrase-->
+<!--        where id =#{id}-->
+<!--    </delete>-->
+
+
+</mapper>

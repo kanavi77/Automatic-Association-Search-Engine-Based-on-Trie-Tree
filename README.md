@@ -1,2 +1,17 @@
-# Automatic Association Search Engine Based on Trie Tree
- 
+The project, "Automatic Association Search Engine Based on Trie Tree," is a comprehensive full-stack application developed to offer a seamless and efficient search experience. Completed two years ago, this project exemplifies a typical full-stack development endeavor, utilizing a blend of technologies across the frontend and backend to create a responsive and user-friendly web application.
+
+### Frontend Overview
+The frontend of the application is designed with HTML, providing the structural foundation of the web pages. CSS is employed to enhance the aesthetics of the site, ensuring that the user interface is both appealing and intuitive. For dynamic content manipulation and event handling, such as button clicks and element selection, jQuery is used. This choice facilitates efficient DOM operations and simplifies the process of making asynchronous requests to the server using AJAX. AJAX plays a pivotal role in the frontend architecture by enabling backend communication without necessitating page reloads. Through AJAX, the application captures user inputs in real-time and communicates with the backend, which processes the requests and returns the necessary data. The use of callback functions ensures that the webpage is updated dynamically, offering users a fluid and responsive search experience.
+
+### Backend Architecture
+The backend framework of the system is built on Spring, Spring MVC, and MyBatis. Spring serves as the backbone of the application, orchestrating the integration of different components and managing services and resources through its advanced dependency injection capabilities. Spring MVC enhances the application's request handling by providing a set of controllers that mediate between the view and model layers, facilitating a clean separation of concerns. MyBatis connects the application's Java objects to a MySQL database, streamlining database access and queries. This setup allows for efficient data management and interaction between the application's layers.
+
+### Core Algorithm and Integration
+At the heart of the project is the Trie tree algorithm, a data structure that enables prefix-based searches and efficient string matching. This algorithm significantly boosts the application's performance by structuring data hierarchically, allowing for rapid searches with a time complexity of O(m) for strings of length m. This is in stark contrast to the traditional LIKE operator in SQL, which has a less efficient time complexity. The integration of the Trie tree with the backend systems, coupled with the dynamic frontend communication facilitated by AJAX, provides an optimized search engine that quickly returns relevant results based on user input.
+
+### Technologies in Detail
+- **Spring**: A lightweight framework for Java application development, offering features such as dependency injection and aspect-oriented programming to facilitate the creation of loosely coupled applications.
+- **Spring MVC**: Part of the Spring framework, it employs an MVC architecture for web application development, allowing for a clear separation between the application's logic, user interface, and request handling.
+- **MyBatis**: A persistence framework that simplifies Java database access and queries, mapping Java objects to database tables through XML configurations or annotations.
+
+This project demonstrates the effective use of modern web development technologies and algorithms to create a high-performance search engine. The use of a Trie tree for data management and AJAX for seamless user interactions exemplifies the innovative integration of frontend and backend technologies to enhance user experience and application efficiency.
